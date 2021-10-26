@@ -235,14 +235,16 @@ article{
 
 /* ========== ========= */
 .long-card{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     width:1050px;
-    margin-bottom:200px;
+    height: 100px;
+    margin-bottom:200px !important;
     background-image:url(/img/orqa_fon.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     margin: 0 auto;
+    padding:24px 71px 24px 29px;
 }
 
 .long-card-btn{
@@ -257,5 +259,6 @@ article{
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #000000;   
+    color: #000000;  
+    text-align:left; 
 }
