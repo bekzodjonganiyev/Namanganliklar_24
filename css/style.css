@@ -125,6 +125,7 @@ body {
     border-radius: 60px;
     background: #FFFFFF;
     padding-left: 41px;
+    text-align: left;
 }
 
 .nav-right-element {
@@ -208,7 +209,7 @@ article{
 .three{
     margin-right: 0px;
 }
-.card-title h1 {
+.card-title a {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
