@@ -226,9 +226,7 @@ article{
     line-height: 22px;
     color: #4A4B4C;
 }
-.card-body img{
-    margin-bottom: -8px;
-}
+
 .site-info-text{
     font-style: normal;
     font-weight: normal;
@@ -241,6 +239,13 @@ article{
 .card-footer {
     display: flex;
     align-items: center;
+}
+.card-footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;    
 }
 .card-footer-logo{
     margin-right: 10px;
